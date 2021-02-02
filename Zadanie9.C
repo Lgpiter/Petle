@@ -18,7 +18,7 @@ int main()
             break;
     }
     
-    for (int j = 0; j < 8; j++)
+    for (int j = 7; j >= 0; j--)
     {
         printf ("%d ", tablica[j]);
     }
